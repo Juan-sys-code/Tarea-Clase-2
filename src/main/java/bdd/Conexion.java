@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class Conexion {
-    private static final String URL = "jdbc:mysql://localhost:3309/mibasededatos?allowKeyPublicRetrievas=true";  // Ruta de la base de datos
+    private static final String URL = "jdbc:mysql://localhost:3309/tareaclase2?allowPublicKeyRetrieval=true";  // Ruta de la base de datos
     private static final String USUARIO = "root"; // Usuario de la base de datos
     private static final String CLAVE = "1234"; // Contraseña
 
